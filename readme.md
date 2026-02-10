@@ -1,9 +1,9 @@
-# $\mu$-systest
+# &mu;systest
 
 A tiny, simple requirements and system test plan builder.
 
 ## Usage
-To use $\mu$-systest, you can either: 
+To use &mu;systest, you can either: 
 1. visit a hosted website (in the works) 
 2. clone this repo and run the program yourself to access the site
     - the program will provide you with a localhost address
@@ -11,7 +11,7 @@ To use $\mu$-systest, you can either:
 
 ## Getting Started
 
-You can begin using $\mu$-systest by either creating a new project or uploading an existing project's JSON file. 
+You can begin using &mu;systest by either creating a new project or uploading an existing project's JSON file. 
 
 Projects follow a flow where the user uploads the project data file, makes changes, then downloads the updated project data file along with any desired document views of the project. 
 
