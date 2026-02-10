@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+}
+
+body {
+    background-color: #446;
+    margin: 0px;
+    max-width: 100%;
+    font-family: 'Noto Sans';
+    
+}
+
+header {
+    background-color: #105060;
+    min-height: 75px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 20px;
+    gap: 20px;
+
+    img {
+        height: 40px;
+        width: auto;
+    }
+    
+    h1 {
+        color: #cff;
+        font-size: 15pt;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 
+    "nav content"
+    "spacer content";
+}
+
+nav {
+    background-color: #074047;
+    grid-area: nav;
+    text-align: center;
+
+    h1 {
+        font-size: 20px;
+        color: #eff;
+    }
+
+    h2 {
+        font-size: 18px;
+        color: #cff;
+    }
+}
+
+#page-body {
+    background-color: #336;
+    grid-area: content;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    background-color: #1c8585;
+    border-radius: 5px;
+    padding: 20px;
+    color: #dff;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input {
+    background-color: #558;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-style: none;
+}
+
+
+button {
+    background-color: #55b;
+    color: #ccf;
+
+    border-radius: 7px;
+    min-height: 30px;
+    padding: 10px;
+    border: none;
+
+    font-weight: bold;
+}
+
+
+button.pos {
+    background-color: #4b4;
+    color: #ddd;
+}
+
+button.pos:hover {
+    background-color: #6b6;
+}
+
+button.neg {
+    background-color: #b55;
+    color: #ddd;
+}
+
+button.neu {
+    background-color: #777;
+    color: #ddd;
+}
+
+button.neu:hover {
+    background-color: #888;
+}
+
+footer {
+    background-color: #aaf;
+}
